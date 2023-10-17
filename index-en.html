@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTex</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="img/logo.svg" alt="logo">
+
+        <nav class="nav">
+            <a href="#Home" class="nav__link">Home</a>
+            <a href="#About" class="nav__link">About</a>
+            <a href="#Projects" class="nav__link">Projects</a>
+            <a href="#Service" class="nav__link">Service</a>
+            <a href="#Partners" class="nav__link">Partners</a>
+            <a href="#Brands" class="nav__link">Brands</a>
+            <a href="#Contacts" class="nav__link">Contacts</a>
+        </nav>
+        <div class="lang">
+            <a href="index.html" class="lang__link">UA</a>
+            <a style="color: #3DB457;" href="index-en.html" class="lang__link">EN</a>
+            <a href="index-pl.html" class="lang__link">PL</a>
+        </div>
+        <div id="button" class="header__burger">
+            <span class="burger__span"></span>
+        </div>
+    </header>
+</div>
+
+
+    <section id="Home">
+        <div class="slider">
+            <div class="left-button" onclick="changeSlide(-1)">
+            </div>
+            <img id="img-1" src="img/slider/1.jpg" alt="Image 1" />
+            <img id="img-2" src="img/slider/2.jpg" alt="Image 2" />
+            <img id="img-3" src="img/slider/3.jpg" alt="Image 3" />
+            <img id="img-4" src="img/slider/4.jpg" alt="Image 4" />
+            <img id="img-5" src="img/slider/5.jpg" alt="Image 5" />
+            <img id="img-6" src="img/slider/6.jpg" alt="Image 6" />
+            <img id="img-7" src="img/slider/7.jpg" alt="Image 7" />
+            <img id="img-8" src="img/slider/8.jpg" alt="Image 8" />
+            <img id="img-9" src="img/slider/9.jpg" alt="Image 9" />
+            <div class="right-button" onclick="changeSlide(1)">
+            </div>
+            <div class="navigation-button">
+              <span class="dot active" onclick="changeSlide(0)"></span>
+              <span class="dot" onclick="changeSlide(1)"></span>
+              <span class="dot" onclick="changeSlide(2)"></span>
+              <span class="dot" onclick="changeSlide(3)"></span>
+              <span class="dot" onclick="changeSlide(4)"></span>
+              <span class="dot" onclick="changeSlide(5)"></span>
+              <span class="dot" onclick="changeSlide(6)"></span>
+              <span class="dot" onclick="changeSlide(7)"></span>
+              <span class="dot" onclick="changeSlide(8)"></span>
+            </div>
+          </div>
+        </section>
+
+    <div class="container">
+    <section id="About">
+        <img src="img/about__img.svg" alt="img" class="about__img">
+        <div class="about__content">
+            <h1 class="about__title">About us</h1>
+            <p class="about__description">Itech Company provides the network of the stores of Indoor and Outdoor power products under brands ‘Forest & Garden’ and ‘Home & Garden’ with a wide range of products for professional use. The sales activities are supported by 3 big service centers with a total area of more the 300 m2</p>
+            <p class="about__description">Since 2014 the iTech Company takes part in the tender activities with State Tender Internet platform Prozorro. A lot of big companies became the customers of our Company from this period. Some of them are budget-generating in their industries.</p>
+            <p class="about__description">The main goal of the Company is to meet the needs of the customers. That’s why most employees of the Company work here 4-5 and more years. The sales manager is not only the guy who will pack the product for you. He has to know the technological process as well as the product range of different manufacturers. He has to talk with a professional user with one language. Only this could be the basis of success.</p>
+            <p class="about__description">All members of the iTech team take part in the different hands-on trainings organized by representatives of different brands. Besides that every year our company organizes its own big hand’s on training with the theoretical part and practice as well. All members of the training have the opportunity to test a lot of different products and to understand all details of this or that technological process. Thousands of regular customers are the best proof that we are moving in the right direction. And we will try to become better to provide fast and qualified service for our customers.</p>
+        </div>
+    </section>
+    
+    <section id="Projects">
+        <h1 class="projects__title">Our Projects</h1>
+        <div class="projects__layout">
+            <div class="projects__item">
+                <h3 class="projects__title">Home & Garden. Ivano-Frankivsk</h3>
+                <p class="projects__adress">Ivano-Frankivsk region, Ivano-Frankivsk, Uhornytska st. 10а</p>
+                <p class="projects__number">+380 66 070 42 61</p>
+                <p class="projects__email">info@dim-sad.if.ua</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Home & Garden Service. Ivano-Frankivsk</h3>
+                <p class="projects__adress">Ivano-Frankivsk region, Ivano-Frankivsk, Khmelnytsky st. 71a</p>
+                <p class="projects__number">+380 66 070 42 61</p>
+                <p class="projects__email">info@dim-sad.if.ua</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Home & Garden. Kremenets</h3>
+                <p class="projects__adress">ТTernopil region, Kremenets, Dubenska st. 54</p>
+                <p class="projects__number">+380 50 60 99 044</p>
+                <p class="projects__email">dimsad.kr@gmail.com</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Home & Garden Service. Kremenets</h3>
+                <p class="projects__adress">Ternopil region, Kremenets, Feschuks station</p>
+                <p class="projects__number">+380 66 062 40 46</p>
+                <p class="projects__email">dimsad.kr@gmail.com</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Home & Garden. Shumsk</h3>
+                <p class="projects__adress">Khmelnytsky region, Shumsk, Myru st. 1b</p>
+                <p class="projects__number">+380 98 62 000 73</p>
+                <p class="projects__email">lissad.sh@gmail.com</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Home & Garden. Chortkiv</h3>
+                <p class="projects__adress">Ternopil region, Chortkiv, Bandery st. 62a (near OKKO)</p>
+                <p class="projects__number">+380 50 331 11 85</p>
+                <p class="projects__email">chortkiv@dim-sad.if.ua</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Forest & Garden. Kalush</h3>
+                <p class="projects__adress">Ivano-Frankivsk region, Kalush, Lesyi Ukrainki st., 48</p>
+                <p class="projects__number">(03472) 6 21 05</p>
+                <p class="projects__email">lissad2006@gmail.com</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Forest & Garden Service. Kalush</h3>
+                <p class="projects__adress">Ivano-Frankivsk region, Kalush, Lesyi Ukrainki st., 48</p>
+                <p class="projects__number">(03472) 6 21 05</p>
+                <p class="projects__email">lissad2006@gmail.com</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Forest & Garden. Dolyna</h3>
+                <p class="projects__adress">Ivano-Frankivsk region, Dolyna, Bohdan Khmelnytsky st., market</p>
+                <p class="projects__number">+380 50 771 48 14</p>
+                <p class="projects__email">lissad2006@gmail.com</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Forest & Garden. Stryj</h3>
+                <p class="projects__adress">Lviv region, Stryi, Uspenska st. 41а</p>
+                <p class="projects__number">+380 99 535 2993</p>
+                <p class="projects__email">stryj.lissad@gmail.com</p>
+            </div>
+            <div class="projects__item">
+                <h3 class="projects__title">Home & Garden. Rebeta 8. Ivano-Frankivsk</h3>
+                <p class="projects__adress">Ivano-Frankivsk region, Ivano-Frankivsk, Rebeta st. 8а</p>
+                <p class="projects__number">+380 66 075 7222</p>
+                <p class="projects__email">dimsadrebeta@gmail.com</p>
+            </div>
+        </div>
+    </section>
+    <section id="Service">
+        <h1 class="service__title">Our Services</h1>
+        <div class="service__item">
+            <img src="img/services__consultation.svg" alt="img" class="service__img">
+            <div class="service__content">
+                <h3 class="service__subtitle">Professional consultation</h3>
+                <p class="service__description">You will get a professional and quality advice from our employees to make the a right choice of the desired product.</p>
+            </div>
+        </div>
+        <div class="service__item">
+            <div class="service__content">
+                <h3 class="service__subtitle">Service</h3>
+                <p class="service__description">We will provide the necessary maintenance and service support of the products in our own service centers.</p>
+            </div>
+            <img src="img/services__service.svg" alt="img" class="service__img">
+        </div>
+        <div class="service__item">
+            <img src="img/services__sell.svg" alt="img" class="service__img">
+            <div class="service__content">
+                <h3 class="service__subtitle">Professional tools sales</h3>
+                <p class="service__description">You can buy a tool for the professional use 24/7 from most of the world known brands.</p>
+            </div>
+        </div>
+    </section>
+    <section id="Partners">
+        <h1 class="service__title">Our Partners</h1>
+        <div class="partners__layout">
+            <img src="img/partners/bukovel.jpg" alt="img">
+            <img src="img/partners/WOG.jpg" alt="img">
+            <img src="img/partners/Аероплюс.jpg" alt="img">
+            <img src="img/partners/Альтернативна-енергетика-Галичини.jpg" alt="img">
+            <img src="img/partners/Електроавтотранс.jpg" alt="img">
+            <img src="img/partners/Електросвіт.jpg" alt="img">
+            <img src="img/partners/Клімат-Стандарт-Плюс.svg" alt="img">
+            <img src="img/partners/Львівобленерго.jpg" alt="img">
+            <img src="img/partners/МЖК-Експрес-24.jpg" alt="img">
+            <img src="img/partners/Оператор-газотранспортної-системи-України.jpg" alt="img">
+            <img src="img/partners/ПБС.svg" alt="img">
+            <img src="img/partners/Прикарпаття-обленерго.svg" alt="img">
+            <img src="img/partners/Радехівський-цукор.jpg" alt="img">
+            <img src="img/partners/Рентеко.jpg" alt="img">
+            <img src="img/partners/Тавель.jpg" alt="img">
+            <img src="img/partners/Техникс.jpg" alt="img">
+            <img src="img/partners/Українська-залізниця.jpg" alt="img">
+            <img src="img/partners/Укргазвидобування.jpg" alt="img">
+            <img src="img/partners/Укртрансгаз.jpg" alt="img">
+            <img src="img/partners/Укртранснафта.jpg" alt="img">
+            <img src="img/partners/Фуджікура-Аутомотів-Україна-Львів.jpg" alt="img">
+            <img src="img/partners/Івано-Франківська-міська-рада.jpg" alt="img">
+            <img src="img/partners/Івано-франківськавтодор.jpg" alt="img">
+            <img src="img/partners/Івано-Франківськгаз.jpg" alt="img">
+            <img src="img/partners/Івано-Франківський-лісгосп.jpg" alt="img">
+    </div>
+    </section>
+
+    <section id="Brands">
+        <h1 class="brands__title">Brands</h1>
+        <div class="brands__layout">
+                <img src="img/brands/abac-logo.png" alt="img">
+                <img src="img/brands/agp.jpg" alt="img">
+                <img src="img/brands/airpro-logo1.png" alt="img">
+                <img src="img/brands/al-ko-200x100.jpg" alt="img">
+                <img src="img/brands/art-master_logo1.jpg" alt="img">
+                <img src="img/brands/awelco.png" alt="img">
+                <img src="img/brands/bahco.png" alt="img">
+                <img src="img/brands/Binzel.jpg" alt="img">
+                <img src="img/brands/black-decker_logo-200x100.jpg" alt="img">
+                <img src="img/brands/bosch_logo-200x100.jpg" alt="img">
+                <img src="img/brands/cedima.jpg" alt="img">
+                <img src="img/brands/Claber-Logo-1.jpg" alt="img">
+                <img src="img/brands/CMT.jpg" alt="img">
+                <img src="img/brands/Contracor.png" alt="img">
+                <img src="img/brands/daishin-logo.jpg" alt="img">
+                <img src="img/brands/dalgakiran.png" alt="img">
+                <img src="img/brands/deca.jpg" alt="img">
+                <img src="img/brands/deltaplus.png" alt="img">
+                <img src="img/brands/dewalt-200x100.jpg" alt="img">
+                <img src="img/brands/distar-370x250.jpg" alt="img">
+                <img src="img/brands/doloni.png" alt="img">
+                <img src="img/brands/Dremel-Logo.png" alt="img">
+                <img src="img/brands/Echo_logo.jpg" alt="img">
+                <img src="img/brands/Efco.png" alt="img">
+                <img src="img/brands/eibenstock.jpg" alt="img">
+                <img src="img/brands/elkop_logo.jpg" alt="img">
+                <img src="img/brands/Enar.png" alt="img">
+                <img src="img/brands/endress-logo.png" alt="img">
+                <img src="img/brands/Ez-Fasten.png" alt="img">
+                <img src="img/brands/FDB-Maschinen.png" alt="img">
+                <img src="img/brands/Fiac.jpg" alt="img">
+                <img src="img/brands/fogo_1.jpg" alt="img">
+                <img src="img/brands/Gardena-logo-200x100.jpg" alt="img">
+                <img src="img/brands/Gedore.jpg" alt="img">
+                <img src="img/brands/gloria.jpg" alt="img">
+                <img src="img/brands/Goelz.png" alt="img">
+                <img src="img/brands/gracologo.png" alt="img">
+                <img src="img/brands/groz.jpg" alt="img">
+                <img src="img/brands/Gutman.png" alt="img">
+                <img src="img/brands/hikoki-200x100.jpg" alt="img">
+                <img src="img/brands/Hilti.png" alt="img">
+                <img src="img/brands/honda.png" alt="img">
+                <img src="img/brands/hugong.jpg" alt="img">
+                <img src="img/brands/husqvarna02-200x100.jpg" alt="img">
+                <img src="img/brands/Hyundai.png" alt="img">
+                <img src="img/brands/Idrobase.png" alt="img">
+                <img src="img/brands/Irwin.png" alt="img">
+                <img src="img/brands/Jet.png" alt="img">
+                <img src="img/brands/Juco.jpg" alt="img">
+                <img src="img/brands/kapro.png" alt="img">
+                <img src="img/brands/kerher-200x100.jpg" alt="img">
+                <img src="img/brands/king_tony2-200x100.jpg" alt="img">
+                <img src="img/brands/Kipor.png" alt="img">
+                <img src="img/brands/Klingspor.png" alt="img">
+                <img src="img/brands/Knipex.png" alt="img">
+                <img src="img/brands/Koshin.png" alt="img">
+                <img src="img/brands/Laserliner.jpg" alt="img">
+                <img src="img/brands/lider.png" alt="img">
+                <img src="img/brands/M7.jpg" alt="img">
+                <img src="img/brands/MAKITA-200x100.jpg" alt="img">
+                <img src="img/brands/Masalta.png" alt="img">
+                <img src="img/brands/Master.png" alt="img">
+                <img src="img/brands/McCulloch.png" alt="img">
+                <img src="img/brands/Mercator-Medical.png" alt="img">
+                <img src="img/brands/metabo1-200x100.jpg" alt="img">
+                <img src="img/brands/Norton-Clipper.png" alt="img">
+                <img src="img/brands/Oleo-Mac-1-200x100.jpg" alt="img">
+                <img src="img/brands/Omi.png" alt="img">
+                <img src="img/brands/Oregon.jpg" alt="img">
+                <img src="img/brands/Osborn.png" alt="img">
+                <img src="img/brands/partner.png" alt="img">
+                <img src="img/brands/Paton.png" alt="img">
+                <img src="img/brands/Pferd.png" alt="img">
+                <img src="img/brands/Prebena.png" alt="img">
+                <img src="img/brands/Proxxon.png" alt="img">
+                <img src="img/brands/Qbric.jpg" alt="img">
+                <img src="img/brands/Remeza.png" alt="img">
+                <img src="img/brands/Rems.png" alt="img">
+                <img src="img/brands/ridgid.jpg" alt="img">
+                <img src="img/brands/Rubi.png" alt="img">
+                <img src="img/brands/S&R.jpg" alt="img">
+                <img src="img/brands/Sokkia.png" alt="img">
+                <img src="img/brands/Sola.png" alt="img">
+                <img src="img/brands/Solo.png" alt="img">
+                <img src="img/brands/Soudal.jpg" alt="img">
+                <img src="img/brands/sparky.jpg" alt="img">
+                <img src="img/brands/Stabila.png" alt="img">
+                <img src="img/brands/Staco.jpg" alt="img">
+                <img src="img/brands/stanley-logo-200x100.jpg" alt="img">
+                <img src="img/brands/Starmix.png" alt="img">
+                <img src="img/brands/Steinel.png" alt="img">
+                <img src="img/brands/Stiga.png" alt="img">
+                <img src="img/brands/stihl_logo-200x100.jpg" alt="img">
+                <img src="img/brands/Tecomec.png" alt="img">
+                <img src="img/brands/texas-logo-200x100.jpg" alt="img">
+                <img src="img/brands/Topex.png" alt="img">
+                <img src="img/brands/Toptul.png" alt="img">
+                <img src="img/brands/truper2-200x100.jpg" alt="img">
+                <img src="img/brands/Volkel.png" alt="img">
+                <img src="img/brands/Wera.png" alt="img">
+                <img src="img/brands/Wiha.png" alt="img">
+                <img src="img/brands/Wolfcraft.png" alt="img">
+                <img src="img/brands/Wurth.jpg" alt="img">
+                <img src="img/brands/Yato.png" alt="img">
+        </div>
+    </section>
+
+    <section id="Contacts">
+        <h1 class="contacts__title">Contacts</h1>
+        <div class="contacts__layout">
+            <div class="contacts__item">
+                <a href="tel:+0342744045" class="contacts__subitem">
+                    <img src="img/contacts__phone.svg" alt="img">
+                    (0342) 74 40 45
+                </a>
+                <a href="tel:+0660704261" class="contacts__subitem">
+                    <img src="img/contacts__phone.svg" alt="img">
+                    (066) 070 42 61
+                </a>
+                <a href="tel:+0668783175" class="contacts__subitem">
+                    <img src="img/contacts__phone.svg" alt="img">
+                    (066) 878 31 75
+                </a>
+                <a href="tel:+0684842415" class="contacts__subitem">
+                    <img src="img/contacts__phone.svg" alt="img">
+                    (068) 484 24 15
+                </a>
+                <a href="tel:+0960704261" class="contacts__subitem">
+                    <img src="img/contacts__phone.svg" alt="img">
+                    (096) 070 42 61
+                </a>
+            </div>
+            <div class="contacts__item">
+                <a target="_blank" href="https://dim-sad.com.ua/" class="contacts__subitem">
+                    <img src="img/contacts__website.svg" alt="img">
+                    Internet-shop <br> Dim-Sad
+                </a>
+                <a target="_blank" href="https://lisisad.com.ua/" class="contacts__subitem">
+                    <img src="img/contacts__website.svg" alt="img">
+                    Internet-shop <br> Lis-Sad
+                </a>
+                <a target="_blank" href="https://maps.app.goo.gl/7GGFoPXTc93G8jBNA" class="contacts__subitem">
+                    <img src="img/contacts__location.svg" alt="img">
+                    Ivano-Frankivsk <br> Khmelnytsky st. 71а 
+                </a>
+            </div>
+            <div class="contacts__item">
+                <a target="_blank" href="mailto:info@itech.if.ua" class="contacts__subitem">
+                    <img src="img/contacts__mail.svg" alt="img">
+                    info@itech.if.ua
+                </a>
+                <a target="_blank" href="https://www.facebook.com/DimSadUkraine/" class="contacts__subitem">
+                    <img src="img/contacts__facebook.svg" alt="img">
+                    Facebook
+                </a>
+                <a target="_blank" href="https://www.instagram.com/dimsad_if/" class="contacts__subitem">
+                    <img src="img/contacts__instagram.svg" alt="img">
+                    Instagram
+                </a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCLElD5SOuyaucXKS0qXO2cg" class="contacts__subitem" href="https://www.youtube.com">
+                    <img src="img/contacts__youtube.svg" alt="img">
+                    YouTube
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+    <footer>
+        <img src="img/logo.svg" alt="">
+        <p class="footer__copyright">&copy2013-2023 Ltd. "iTech Company"</p>
+        <div class="footer__contacts">
+            <p class="footer__contacts__item">(0342) 74 40 45</p>
+            <p class="footer__contacts__item">Ivano-Frankivsk</p>
+            <p class="footer__contacts__item">info@itech.if.ua</p>
+        </div>
+    </footer>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/burger.js"></script>
+</body>
+</html>
